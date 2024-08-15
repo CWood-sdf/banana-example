@@ -1,0 +1,8 @@
+<div data-name=" " data-desc=" " data-installstate=" ">
+  plugin: %data-name
+  <br />
+  description: %data-desc
+  <br />
+  %data-installstate installed
+  <script src="installer.view"></script>
+</div>

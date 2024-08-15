@@ -1,0 +1,5 @@
+<div>
+  list stuff. press i to install a plugin
+  <ul id="list"></ul>
+  <script src="installer.list"></script>
+</div>

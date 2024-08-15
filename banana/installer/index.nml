@@ -1,0 +1,57 @@
+<nml>
+  <head>
+    <style>
+      nml {
+        width: 75%;
+        height: 75%;
+        top: 12%;
+        left: 12%;
+      }
+
+      #topnav {
+        display: flex;
+      }
+      #topnav > div {
+        text-align: center;
+        margin: 1ch 0ch;
+        flex-grow: 1;
+        /* use lazy.nvim's colors */
+        hl-bg: hl-extract(bg, CursorLine);
+      }
+      #topnav > div.selected {
+        /* use lazy.nvim's colors */
+        hl-bg: hl-extract(bg, Visual);
+      }
+
+      #topnav .remap {
+        hl-fg: hl-extract(fg, Operator);
+      }
+      .title {
+        text-align: center;
+      }
+      #container {
+        padding-left: 2ch;
+      }
+      ul {
+        padding-left: 2ch;
+      }
+    </style>
+    <title>Install things</title>
+  </head>
+  <body>
+    <div class="title">~~ Install things ~~</div>
+
+    <br />
+
+    <div id="topnav">
+      <div id="list-tb">List <span class="remap">(L)</span></div>
+      <div id="installed-tb">Installed <span class="remap">(I)</span></div>
+      <div id="view-tb">View <span class="remap">(V)</span></div>
+    </div>
+    <br />
+
+    <div id="container"></div>
+
+    <script src="installer"></script>
+  </body>
+</nml>

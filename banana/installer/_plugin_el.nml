@@ -1,0 +1,5 @@
+<li data-name="">
+  %data-name
+  <!-- in the future, we could add things to make this li, but it's componentized (which is the important part) -->
+  <script src="installer._plugin_el"></script>
+</li>

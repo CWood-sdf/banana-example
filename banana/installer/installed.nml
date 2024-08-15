@@ -1,0 +1,6 @@
+<div>
+  installed things. press u to uninstall a plugin
+  <ul id="list"></ul>
+
+  <script src="installer.installed"></script>
+</div>
