@@ -34,9 +34,9 @@ Then run it with the command: `InstallThings`
 
 The main features it shows are:
 
-- Flex rendering (the topbar is controlled with display:flex and flex-grow:1)
-- loadNmlTo (currently the system is a bit clunky and will probably be actually designed in banana 0.2)
+- Flex rendering (the topbar is controlled with `display:flex` and `flex-grow:1`)
+- `loadNmlTo` (currently the system is a bit clunky and will probably be actually designed in banana 0.2)
 - api is separated from the ui components
-- components with banana (the banana/installer/\_plugin_el.nml file is a reusable component)
+- components with banana (the `banana/installer/_plugin_el.nml` file is a reusable component)
 
 In my opinion, it is _MUCH_ more obvious what each page of the ui is going to look like when reading the nml than in a regular neovim plugin.
